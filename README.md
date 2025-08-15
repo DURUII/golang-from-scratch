@@ -1,29 +1,23 @@
 # golang-from-scratch
 
-> 本仓库紧跟 Go 1.24 的语言演进，采用现代写法与最佳实践，并通过 golangci-lint 保证代码规范。觉得还不错的话，点个 🌟 叭！
+如果你已经会一门语言，本仓库能帮你在最短时间写出 正确、可维护、可扩展 的 Go 代码，避开惯性思维陷阱，快速掌握 Go 哲学思想、并发范式与工程化实践。
 
-## 语法基础
+> 本仓库采用 Go 1.24 现代写法与最佳实践，通过 golangci-lint 保证代码规范。
 
-- `./basics` 包含 Go 语言的基本语法样例代码，避免陷入其他主流语言思考模式的固有陷阱：
-    - ⚙️ 基础结构：常量、变量、条件、循环、字符串、slice、map
-    - 🌆 抽象：结构体、接口
-    - 🤕 错误处理与测试：单元测试、benchmark、BDD、json 性能调优
-    - 🏗️ 架构设计：微内核、管道过滤器
-    - ⚡️ 并发基础：mutex、waitgroup、channel 等
-    - 🐯 `exercises` 和 `proj` 包含来自 HeadFirst, gophercises, 新未来训练营 等练习/考核的 Solutions
+## 学习路径
 
-## 工程进阶
-
-- `./advanced` 包含 Go 语言进阶语法和工程实践的样例代码和文档，助你从从熟练到精通：
-    - 🔍 进阶语法和新版本新特性：切片共享底层数组、底层类型、泛型、atomic、context、slog 等
-    - 🧩 设计模式和最佳实践：Error Check Hell、SSE接口、装饰器模式、观察者模式等
-    - 🏙️ 工程实践：项目布局、接口设计的艺术、缓存方案、依赖注入、可观测性等
+- ⚙️ 基础结构：变量、常量、条件、循环、数组、切片、map、字符串
+- 🌆 抽象与封装：结构体、接口、组合
+- 🤕 错误处理与测试：error 包、panic、单元测试、Benchmark测试、BDD、json 性能调优
+- ⚡ 并发编程：goroutine、mutex、channel、select、context、任务管理、对象池
+- 💊 维他命：包含算法练习、gophercises、训练营小项目
+- 🏗 架构模式：微内核、管道-过滤器
+- 🔄 温故而知新：巩固切片共享、底层类型、泛型、atomic，初探建造者模式、观察者模式、Error Check Hell等最佳实践
 
 ## 优质在线资源
 
 - The Uber Go Style Guide：https://github.com/uber-go/guide/blob/master/style.md
 - Go语言从入门到实战：https://gitee.com/geektime-geekbang/go_learning
-- Docker 训练营: https://opencamp.ai/Docker/camp/202501
 - Go并发编程：https://katherine.cox-buday.com/concurrency-in-go/
 
 ## 里程碑留念
